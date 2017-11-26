@@ -44,12 +44,7 @@
   <!-- https://github.com/apache/karaf/blob/master/assemblies/apache-karaf/pom.xml -->
 
   <properties>
-    <org.apache.karaf.version>4.1.2</org.apache.karaf.version>
-    <jna.version>4.3.0</jna.version>
-    <servicemix.specs.version>2.8.0</servicemix.specs.version>
-    <xerces.version>2.11.0_1</xerces.version>
-    <xalan.bundle.version>2.7.2_3</xalan.bundle.version>
-    <xalan-serializer.bundle.version>2.7.2_1</xalan-serializer.bundle.version>
+    <org.apache.karaf.version>4.2.0.M1</org.apache.karaf.version>
   </properties>
 
   <dependencies>
@@ -405,8 +400,6 @@
             <!-- Apache Karaf -->
             <feature>wrapper</feature>
             <feature>wrap</feature>
-            <feature>aries-blueprint</feature>
-            <feature>shell-compat</feature>
             <feature>kar</feature>
             <!-- Apache Sling -->
             <feature>sling</feature>
@@ -495,7 +488,6 @@
             <feature>composum-sling</feature>
           </installedFeatures>
           <startupFeatures>
-            <!-- <feature>eventadmin</feature> -->
           </startupFeatures>
           <bootFeatures>
             <feature>eventadmin</feature>
@@ -513,29 +505,12 @@
             <feature>package</feature>
             <feature>service</feature>
             <feature>system</feature>
-            <!-- TODO -->
             <feature>scr</feature>
             <feature>http</feature>
             <feature>http-whiteboard</feature>
             <feature>webconsole</feature>
           </bootFeatures>
           <libraries>
-            <library>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xerces/${xerces.version};type:=endorsed;export:=true;delegate:=true</library>
-            <library>mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.jaxp-api-1.4/${servicemix.specs.version};type:=endorsed;export:=true</library>
-            <library>mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.jaxb-api-2.2/${servicemix.specs.version};type:=endorsed;export:=true</library>
-            <library>mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.jaxws-api-2.2/${servicemix.specs.version};type:=endorsed;export:=true</library>
-            <library>mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.saaj-api-1.3/${servicemix.specs.version};type:=endorsed;export:=true</library>
-            <library>mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.activation-api-1.1/${servicemix.specs.version};type:=endorsed;export:=true</library>
-            <library>mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.stax-api-1.2/${servicemix.specs.version};type:=endorsed;export:=true</library>
-            <library>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xalan/${xalan.bundle.version};type:=endorsed;export:=true</library>
-            <library>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xalan-serializer/${xalan-serializer.bundle.version};type:=endorsed;export:=true</library>
-            <library>mvn:javax.annotation/javax.annotation-api/1.2;type:=endorsed;export:=true</library>
-
-            <library>mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.activator/${servicemix.specs.version};type:=default;export:=true</library>
-            <library>mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.locator/${servicemix.specs.version};type:=default;export:=true</library>
-
-            <library>mvn:net.java.dev.jna/jna/${jna.version};type:=boot;export:=false</library>
-            <library>mvn:net.java.dev.jna/jna-platform/${jna.version};type:=boot;export:=false</library>
           </libraries>
           <javase>1.8</javase>
         </configuration>
