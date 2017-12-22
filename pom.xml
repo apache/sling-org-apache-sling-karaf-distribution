@@ -457,15 +457,16 @@
             <feature>sling-jcr-repoinit</feature>
             <!-- Apache Sling Launchpad -->
             <feature>sling-launchpad-content</feature>
-            <feature>sling-launchpad-nosql-couchbase</feature>
-            <feature>sling-launchpad-nosql-mongodb</feature>
-            <feature>sling-launchpad-oak</feature>
-            <feature>sling-launchpad-oak-mongo</feature>
-            <feature>sling-launchpad-oak-tar</feature>
             <!-- Apache Sling NoSQL -->
             <feature>sling-nosql-couchbase</feature>
             <feature>sling-nosql-generic</feature>
             <feature>sling-nosql-mongodb</feature>
+            <!-- Apache Sling Quickstart -->
+            <feature>sling-quickstart-nosql-couchbase</feature>
+            <feature>sling-quickstart-nosql-mongodb</feature>
+            <feature>sling-quickstart-oak</feature>
+            <feature>sling-quickstart-oak-mongo</feature>
+            <feature>sling-quickstart-oak-tar</feature>
             <!-- Apache Sling Scripting -->
             <feature>sling-scripting</feature>
             <feature>sling-scripting-freemarker</feature>
