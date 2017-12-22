@@ -480,6 +480,7 @@
             <!-- Apache Jackrabbit -->
             <feature>jackrabbit</feature>
             <feature>jackrabbit-oak</feature>
+            <feature>jackrabbit-vault</feature>
             <!-- Apache Tika -->
             <feature>tika</feature>
             <!-- Apache Sling Samples -->
