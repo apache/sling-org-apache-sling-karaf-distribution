@@ -478,14 +478,14 @@
             <!-- Apache Sling Servlets -->
             <feature>sling-servlets</feature>
             <!-- Apache Jackrabbit -->
-            <feature>jackrabbit-sling</feature>
-            <feature>jackrabbit-oak-sling</feature>
+            <feature>jackrabbit</feature>
+            <feature>jackrabbit-oak</feature>
             <!-- Apache Tika -->
-            <feature>tika-sling</feature>
+            <feature>tika</feature>
             <!-- Apache Sling Samples -->
             <feature>sling-samples-fling</feature>
             <!-- Composum -->
-            <feature>composum-sling</feature>
+            <feature>composum</feature>
           </installedFeatures>
           <startupFeatures>
           </startupFeatures>
