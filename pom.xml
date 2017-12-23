@@ -426,7 +426,6 @@
             <feature>sling-extension-discovery-standalone</feature>
             <feature>sling-extension-distribution</feature>
             <feature>sling-extension-event</feature>
-            <feature>sling-extension-explorer</feature>
             <feature>sling-extension-featureflags</feature>
             <feature>sling-extension-fsresource</feature>
             <feature>sling-extension-healthcheck</feature>
