@@ -454,8 +454,6 @@
             <feature>sling-jcr-compiler</feature>
             <feature>sling-jcr-jackrabbit-security</feature>
             <feature>sling-jcr-repoinit</feature>
-            <!-- Apache Sling Launchpad -->
-            <feature>sling-launchpad-content</feature>
             <!-- Apache Sling NoSQL -->
             <feature>sling-nosql-couchbase</feature>
             <feature>sling-nosql-generic</feature>
@@ -477,6 +475,8 @@
             <feature>sling-scripting-thymeleaf</feature>
             <!-- Apache Sling Servlets -->
             <feature>sling-servlets</feature>
+            <!-- Apache Sling Starter -->
+            <feature>sling-starter-content</feature>
             <!-- Apache Jackrabbit -->
             <feature>jackrabbit</feature>
             <feature>jackrabbit-oak</feature>
