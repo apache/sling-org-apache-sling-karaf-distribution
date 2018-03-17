@@ -43,21 +43,17 @@
 
   <!-- https://github.com/apache/karaf/blob/master/assemblies/apache-karaf/pom.xml -->
 
-  <properties>
-    <org.apache.karaf.version>4.2.0.M2</org.apache.karaf.version>
-  </properties>
-
   <dependencies>
     <dependency>
       <groupId>org.apache.karaf.features</groupId>
       <artifactId>framework</artifactId>
-      <version>${org.apache.karaf.version}</version>
+      <version>4.2.0.M2</version>
       <type>kar</type>
     </dependency>
     <dependency>
       <groupId>org.apache.karaf.features</groupId>
       <artifactId>standard</artifactId>
-      <version>${org.apache.karaf.version}</version>
+      <version>4.2.0.M2</version>
       <classifier>features</classifier>
       <type>xml</type>
       <scope>runtime</scope>
@@ -378,7 +374,7 @@
       <plugin>
         <groupId>org.apache.karaf.tooling</groupId>
         <artifactId>karaf-maven-plugin</artifactId>
-        <version>${org.apache.karaf.version}</version>
+        <version>4.2.0.M2</version>
         <extensions>true</extensions>
         <executions>
           <execution>
