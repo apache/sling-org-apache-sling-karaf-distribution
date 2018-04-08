@@ -59,6 +59,14 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
+      <groupId>org.apache.karaf.features</groupId>
+      <artifactId>enterprise</artifactId>
+      <version>4.2.0.M2</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-features</artifactId>
       <version>0.1.1-SNAPSHOT</version>
@@ -401,10 +409,13 @@
         </executions>
         <configuration>
           <installedFeatures>
-            <!-- Apache Karaf -->
+            <!-- Apache Karaf (default) -->
             <feature>wrapper</feature>
-            <feature>wrap</feature>
-            <feature>kar</feature>
+            <!-- Apache Karaf (additional for Sling)-->
+            <feature>http</feature>
+            <feature>http-whiteboard</feature>
+            <feature>scr</feature>
+            <feature>webconsole</feature>
             <!-- Apache Sling -->
             <feature>sling</feature>
             <!-- Apache Sling Auth -->
@@ -493,9 +504,10 @@
             <feature>composum</feature>
           </installedFeatures>
           <startupFeatures>
+            <feature>eventadmin</feature>
           </startupFeatures>
           <bootFeatures>
-            <feature>eventadmin</feature>
+            <feature>wrap</feature>
             <feature>shell</feature>
             <feature>feature</feature>
             <feature>jaas</feature>
@@ -505,15 +517,13 @@
             <feature>config</feature>
             <feature>deployer</feature>
             <feature>diagnostic</feature>
+            <feature>feature</feature>
             <feature>instance</feature>
+            <feature>kar</feature>
             <feature>log</feature>
             <feature>package</feature>
             <feature>service</feature>
             <feature>system</feature>
-            <feature>scr</feature>
-            <feature>http</feature>
-            <feature>http-whiteboard</feature>
-            <feature>webconsole</feature>
           </bootFeatures>
           <libraries>
           </libraries>
