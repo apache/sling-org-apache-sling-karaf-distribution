@@ -35,6 +35,10 @@
   <name>Apache Sling - Karaf Distribution</name>
   <description>Apache Sling Karaf Distribution</description>
 
+  <properties>
+    <slingKaraf.version>${project.version}</slingKaraf.version>
+  </properties>
+
   <scm>
     <connection>scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-karaf-distribution.git</connection>
     <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-karaf-distribution.git</developerConnection>
@@ -69,7 +73,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-features</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
       <scope>runtime</scope>
@@ -77,7 +81,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.felix.jaas.Configuration.factory-GuestLoginModule</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -85,7 +89,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.felix.jaas.Configuration.factory-LoginModuleImpl</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -93,7 +97,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.felix.jaas.Configuration.factory-TokenLoginModule</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -101,7 +105,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.felix.jaas.ConfigurationSpi</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -109,7 +113,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -117,7 +121,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -125,7 +129,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.jackrabbit.oak.security.authentication.AuthenticationConfigurationImpl</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -133,7 +137,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -141,7 +145,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.jackrabbit.oak.security.user.UserConfigurationImpl</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -149,7 +153,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.jackrabbit.oak.segment.SegmentNodeStoreService</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -157,7 +161,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -165,7 +169,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.jcr.base.internal.LoginAdminWhitelist.fragment-composum</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -173,7 +177,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.jcr.base.internal.LoginAdminWhitelist.fragment-sling</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -181,7 +185,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.jcr.repoinit.RepositoryInitializer-sling</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -189,7 +193,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.jcr.repoinit.RepositoryInitializer-sling_discovery</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -197,7 +201,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.jcr.repoinit.RepositoryInitializer-sling_event</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -205,7 +209,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.jcr.repoinit.RepositoryInitializer-sling_i18n</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -213,7 +217,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.jcr.repoinit.RepositoryInitializer-sling_installer_jcr</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -221,7 +225,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.jcr.repoinit.RepositoryInitializer-sling_scripting</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -229,7 +233,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.jcr.repoinit.RepositoryInitializer-sling_validation</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -237,7 +241,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.jcr.repoinit.RepositoryInitializer-sling_xss</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -245,7 +249,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.nosql.couchbase.client.CouchbaseClient.factory.config-default</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -253,7 +257,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.nosql.couchbase.resourceprovider.CouchbaseNoSqlResourceProviderFactory.factory.config-default</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -261,7 +265,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.nosql.mongodb.resourceprovider.MongoDBNoSqlResourceProviderFactory.factory.config-default</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -269,7 +273,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended-discovery</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -277,7 +281,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended-event</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -285,7 +289,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended-i18n</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -293,7 +297,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended-installer_jcr</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -301,7 +305,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended-jcr_resource</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -309,7 +313,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended-resource_presence</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -317,7 +321,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended-resourceresolver</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -325,7 +329,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended-scripting</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -333,7 +337,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended-scripting_sightly</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -341,7 +345,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended-scripting_thymeleaf</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -349,7 +353,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended-servlets</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -357,7 +361,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended-validation</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -365,7 +369,7 @@
     <dependency>
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>${slingKaraf.version}</version>
       <classifier>org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended-xss</classifier>
       <type>config</type>
       <scope>runtime</scope>
