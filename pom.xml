@@ -442,6 +442,7 @@
             <feature>sling-auth-selector</feature>
             <!-- Apache Sling Commons -->
             <feature>sling-commons-compiler</feature>
+            <feature>sling-commons-clam</feature>
             <feature>sling-commons-classloader</feature>
             <feature>sling-commons-fsclassloader</feature>
             <feature>sling-commons-html</feature>
