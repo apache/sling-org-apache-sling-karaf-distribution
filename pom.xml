@@ -473,7 +473,6 @@
             <feature>sling-caconfig</feature>
             <feature>sling-clam</feature>
             <feature>sling-discovery</feature>
-            <feature>sling-discovery-impl</feature>
             <feature>sling-discovery-oak</feature>
             <feature>sling-discovery-standalone</feature>
             <feature>sling-distribution</feature>
