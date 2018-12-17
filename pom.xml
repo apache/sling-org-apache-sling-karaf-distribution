@@ -454,7 +454,6 @@
             <feature>sling</feature>
             <!-- Apache Sling Auth -->
             <feature>sling-auth-form</feature>
-            <feature>sling-auth-openid</feature>
             <!-- Apache Sling Commons -->
             <feature>sling-commons-compiler</feature>
             <feature>sling-commons-clam</feature>
