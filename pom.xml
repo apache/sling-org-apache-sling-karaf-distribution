@@ -526,6 +526,8 @@
             <feature>sling-servlets</feature>
             <!-- Apache Sling Starter -->
             <feature>sling-starter-content</feature>
+            <!-- Apache Felix Healthcheck -->
+            <feature>felix-healthcheck</feature>
             <!-- Apache Jackrabbit -->
             <feature>jackrabbit</feature>
             <feature>jackrabbit-oak</feature>
