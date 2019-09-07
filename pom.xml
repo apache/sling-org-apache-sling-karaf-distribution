@@ -520,7 +520,7 @@
             <feature>sling-scripting-java</feature>
             <feature>sling-scripting-javascript</feature>
             <feature>sling-scripting-jsp</feature>
-            <feature>sling-scripting-sightly</feature>
+            <feature>sling-scripting-htl</feature>
             <feature>sling-scripting-thymeleaf</feature>
             <!-- Apache Sling Servlets -->
             <feature>sling-servlets</feature>
