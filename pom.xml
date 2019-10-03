@@ -374,7 +374,7 @@
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
       <version>0.1.1-SNAPSHOT</version>
-      <classifier>org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended-scripting_sightly</classifier>
+      <classifier>org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended-scripting_htl</classifier>
       <type>config</type>
       <scope>runtime</scope>
     </dependency>
