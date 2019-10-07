@@ -489,7 +489,6 @@
             <feature>sling-resourcemerger</feature>
             <feature>sling-rewriter</feature>
             <feature>sling-security</feature>
-            <feature>sling-extensions-threaddump</feature>
             <feature>sling-urlrewriter</feature>
             <feature>sling-validation</feature>
             <feature>sling-xss</feature>
