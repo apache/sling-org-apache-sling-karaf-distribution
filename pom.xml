@@ -458,6 +458,7 @@
             <feature>sling-commons-compiler</feature>
             <feature>sling-commons-clam</feature>
             <feature>sling-commons-classloader</feature>
+            <feature>sling-commons-crypto</feature>
             <feature>sling-commons-fsclassloader</feature>
             <feature>sling-commons-html</feature>
             <feature>sling-commons-messaging</feature>
