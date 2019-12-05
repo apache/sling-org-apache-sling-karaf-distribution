@@ -537,6 +537,8 @@
             <feature>sling-samples-fling</feature>
             <!-- Composum -->
             <feature>composum-nodes</feature>
+            <!-- Thymeleaf -->
+            <feature>thymeleaf</feature>
           </installedFeatures>
           <startupFeatures>
             <feature>eventadmin</feature>
