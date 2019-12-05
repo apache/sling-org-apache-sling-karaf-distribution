@@ -166,7 +166,7 @@
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
       <version>0.1.1-SNAPSHOT</version>
-      <classifier>org.apache.sling.jcr.base.internal.LoginAdminWhitelist.fragment-composum</classifier>
+      <classifier>org.apache.sling.jcr.base.internal.LoginAdminWhitelist.fragment-composum_nodes</classifier>
       <type>config</type>
       <scope>runtime</scope>
     </dependency>
@@ -536,7 +536,7 @@
             <!-- Apache Sling Samples -->
             <feature>sling-samples-fling</feature>
             <!-- Composum -->
-            <feature>composum</feature>
+            <feature>composum-nodes</feature>
           </installedFeatures>
           <startupFeatures>
             <feature>eventadmin</feature>
