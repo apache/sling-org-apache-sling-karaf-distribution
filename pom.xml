@@ -535,7 +535,6 @@
             <!-- Apache Tika -->
             <feature>tika</feature>
             <!-- Apache Sling Samples -->
-            <feature>sling-samples-fling</feature>
             <!-- Composum -->
             <feature>composum-nodes</feature>
             <!-- Thymeleaf -->
