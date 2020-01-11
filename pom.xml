@@ -262,30 +262,6 @@
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
       <version>0.1.1-SNAPSHOT</version>
-      <classifier>org.apache.sling.nosql.couchbase.client.CouchbaseClient.factory.config-default</classifier>
-      <type>config</type>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.sling</groupId>
-      <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
-      <classifier>org.apache.sling.nosql.couchbase.resourceprovider.CouchbaseNoSqlResourceProviderFactory.factory.config-default</classifier>
-      <type>config</type>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.sling</groupId>
-      <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
-      <classifier>org.apache.sling.nosql.mongodb.resourceprovider.MongoDBNoSqlResourceProviderFactory.factory.config-default</classifier>
-      <type>config</type>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.sling</groupId>
-      <artifactId>org.apache.sling.karaf-configs</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
       <classifier>org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended-caconfig</classifier>
       <type>config</type>
       <scope>runtime</scope>
@@ -503,13 +479,7 @@
             <feature>sling-jcr-compiler</feature>
             <feature>sling-jcr-jackrabbit-security</feature>
             <feature>sling-jcr-repoinit</feature>
-            <!-- Apache Sling NoSQL -->
-            <feature>sling-nosql-couchbase</feature>
-            <feature>sling-nosql-generic</feature>
-            <feature>sling-nosql-mongodb</feature>
             <!-- Apache Sling Quickstart -->
-            <feature>sling-quickstart-nosql-couchbase</feature>
-            <feature>sling-quickstart-nosql-mongodb</feature>
             <feature>sling-quickstart-oak</feature>
             <feature>sling-quickstart-oak-mongo</feature>
             <feature>sling-quickstart-oak-tar</feature>
