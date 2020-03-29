@@ -238,6 +238,22 @@
       <groupId>org.apache.sling</groupId>
       <artifactId>org.apache.sling.karaf-configs</artifactId>
       <version>0.1.1-SNAPSHOT</version>
+      <classifier>org.apache.sling.jcr.repoinit.RepositoryInitializer-sling_mapping</classifier>
+      <type>config</type>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.sling</groupId>
+      <artifactId>org.apache.sling.karaf-configs</artifactId>
+      <version>0.1.1-SNAPSHOT</version>
+      <classifier>org.apache.sling.jcr.repoinit.RepositoryInitializer-sling_readall</classifier>
+      <type>config</type>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.sling</groupId>
+      <artifactId>org.apache.sling.karaf-configs</artifactId>
+      <version>0.1.1-SNAPSHOT</version>
       <classifier>org.apache.sling.jcr.repoinit.RepositoryInitializer-sling_scripting</classifier>
       <type>config</type>
       <scope>runtime</scope>
