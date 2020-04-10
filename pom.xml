@@ -496,6 +496,7 @@
             <feature>sling-xss</feature>
             <!-- Apache Sling Installer -->
             <feature>sling-installer</feature>
+            <feature>sling-installer-factory-configuration</feature>
             <feature>sling-installer-healthcheck</feature>
             <feature>sling-installer-provider-file</feature>
             <feature>sling-installer-provider-jcr</feature>
