@@ -446,8 +446,7 @@
             <!-- Apache Karaf (default) -->
             <feature>wrapper</feature>
             <!-- Apache Karaf (additional for Sling)-->
-            <feature>http</feature>
-            <feature>http-whiteboard</feature>
+            <feature>felix-http</feature>
             <feature>scr</feature>
             <feature>webconsole</feature>
             <!-- Apache Sling -->
