@@ -537,6 +537,10 @@
             <feature>composum-nodes</feature>
             <!-- Thymeleaf -->
             <feature>thymeleaf</feature>
+            <!-- asm -->
+            <feature>asm</feature>
+            <!-- spifly -->
+            <feature>spifly</feature>
           </installedFeatures>
           <startupFeatures>
             <feature>eventadmin</feature>
