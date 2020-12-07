@@ -164,7 +164,12 @@
             <feature>jackrabbit-vault</feature>
             <!-- Apache Tika -->
             <feature>tika</feature>
-            <!-- Apache Sling Samples -->
+            <!-- Apache Sling Applications and Samples -->
+            <!--
+            <feature>sling-cms</feature>
+            <feature>sling-cms-login</feature>
+            <feature>sling-cms-reference</feature>
+            -->
             <!-- Composum -->
             <feature>composum-nodes</feature>
             <!-- Thymeleaf -->
