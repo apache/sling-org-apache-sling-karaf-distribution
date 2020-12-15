@@ -168,6 +168,9 @@
             <feature>sling-cms</feature>
             <feature>sling-cms-login</feature>
             <feature>sling-cms-reference</feature>
+            <feature>sling-cms-author</feature>
+            <feature>sling-cms-renderer</feature>
+            <feature>sling-cms-standalone</feature>
             <!-- Composum -->
             <feature>composum-nodes</feature>
             <!-- Thymeleaf -->
