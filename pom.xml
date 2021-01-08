@@ -108,6 +108,7 @@
             <feature>sling-discovery-standalone</feature>
             <feature>sling-distribution</feature>
             <feature>sling-event</feature>
+            <feature>sling-extensions-webconsolesecurityprovider</feature>
             <feature>sling-featureflags</feature>
             <feature>sling-fsresource</feature>
             <feature>sling-healthcheck</feature>
