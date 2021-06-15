@@ -136,7 +136,8 @@
             <!-- Apache Sling JCR -->
             <feature>sling-jcr</feature>
             <feature>sling-jcr-compiler</feature>
-            <feature>sling-jcr-jackrabbit-security</feature>
+            <feature>sling-jcr-jackrabbit-accessmanager</feature>
+            <feature>sling-jcr-jackrabbit-usermanager</feature>
             <feature>sling-jcr-repoinit</feature>
             <!-- Apache Sling Quickstart -->
             <feature>sling-quickstart-oak</feature>
