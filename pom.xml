@@ -108,7 +108,6 @@
             <feature>sling-extensions-webconsolesecurityprovider</feature>
             <feature>sling-featureflags</feature>
             <feature>sling-fsresource</feature>
-            <feature>sling-healthcheck</feature>
             <feature>sling-i18n</feature>
             <feature>sling-jmx-provider</feature>
             <feature>sling-models</feature>
