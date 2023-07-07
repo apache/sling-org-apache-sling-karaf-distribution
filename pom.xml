@@ -93,7 +93,6 @@
             <feature>sling-commons-messaging-mail</feature>
             <feature>sling-commons-metrics</feature>
             <feature>sling-commons-osgi</feature>
-            <feature>sling-commons-permissions</feature>
             <feature>sling-commons-scheduler</feature>
             <feature>sling-commons-threads</feature>
             <!-- Apache Sling Extensions -->
